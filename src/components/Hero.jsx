@@ -36,7 +36,7 @@ const Hero = () => {
             View My Work
           </button>
           <a
-            href="https://www.linkedin.com/in/mahnoor-rizwan"
+            href="https://www.linkedin.com/in/mahnoor-rizwan-pe"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 bg-white text-gray-800 rounded-full font-medium hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-gray-200"

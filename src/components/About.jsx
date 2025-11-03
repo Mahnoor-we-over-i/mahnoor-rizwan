@@ -1,14 +1,6 @@
 import React from 'react'
 
 const About = () => {
-  const handleDownloadCV = () => {
-    // Placeholder - you can replace with actual CV link
-    const link = document.createElement('a')
-    link.href = '#'
-    link.download = 'Mahnoor_Rizwan_CV.pdf'
-    link.click()
-  }
-
   return (
     <section id="about" className="py-20 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
@@ -25,12 +17,14 @@ const About = () => {
             <p className="text-lg text-gray-700 leading-relaxed italic text-gray-600">
               When I'm not engineering products, I'm exploring motherhood's creative energy — it's my greatest design challenge yet.
             </p>
-            <button
-              onClick={handleDownloadCV}
-              className="mt-8 px-6 py-3 bg-gradient-to-r from-peach to-lavender text-gray-800 rounded-full font-medium hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+            <a
+              href="/Mahnoor Rizwan CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-8 inline-block px-6 py-3 bg-gradient-to-r from-peach to-lavender text-gray-800 rounded-full font-medium hover:shadow-lg transition-all duration-300 transform hover:scale-105"
             >
-              Download CV
-            </button>
+              View CV
+            </a>
           </div>
 
           {/* Photo */}
