@@ -17,14 +17,14 @@ const About = () => {
             <p className="text-lg text-gray-700 leading-relaxed italic text-gray-600">
               When I'm not engineering products, I'm exploring motherhood — it's my greatest challenge yet.
             </p>
-            <a
+            {/* <a
               href="/Mahnoor Rizwan CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-block px-6 py-3 bg-gradient-to-r from-peach to-lavender text-gray-800 rounded-full font-medium hover:shadow-lg transition-all duration-300 transform hover:scale-105"
             >
               View CV
-            </a>
+            </a> */}
           </div>
 
           {/* Photo */}
